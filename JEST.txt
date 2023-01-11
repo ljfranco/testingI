@@ -1,0 +1,9 @@
+npm init -y
+npm install --save-dev jest
+En 'package.json' agregamos 'jest' como valor de Script.Test
+3. Creamos una carpeta '__test__' y agregamos los archivos 'XX.test.js' (en XX se pone el nombre del archivo js que vamos a testear)
+4. En este archivo importamos el código a probar
+		const { generateTest } = require('../util.js');
+
+5. Creamos los test
+6. Ejecutamos con "npm test"
